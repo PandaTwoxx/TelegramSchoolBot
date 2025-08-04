@@ -1,10 +1,23 @@
 {
+  "name": "telegram-selenium-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that uses Selenium to interact with web pages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "npx prettier . --write",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
   "dependencies": {
     "@types/node": "^24.1.0",
     "dotenv": "^17.2.1",
     "grammy": "^1.37.0",
     "selenium-webdriver": "^4.34.0",
-    "tsc": "^2.0.4",
-    "typescript": "^5.9.2"
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }

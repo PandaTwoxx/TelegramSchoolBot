@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "nodenext",
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "dist",
-    "rootDir": "src",
+    "outDir": "dist/",
+    "rootDir": "src/"
   },
+  "exclude": [
+    "node_modules",
+    "eslint.config.mts"
+  ]
 }
